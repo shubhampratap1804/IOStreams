@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.NIOFileAPITest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-11T12:11:02" hostname="DESKTOP-EN6GUKD" time="0.67">
+  <properties/>
+  <testcase name="givenPathWhenChecked_ThenConfirm()" classname="com.test.NIOFileAPITest" time="0.67"/>
+  <system-out><![CDATA[C:\Users\prata\MyPlayGround\temp1
+C:\Users\prata\MyPlayGround\temp2
+C:\Users\prata\MyPlayGround\temp3
+C:\Users\prata\MyPlayGround\temp4
+C:\Users\prata\MyPlayGround\temp5
+C:\Users\prata\MyPlayGround\temp6
+C:\Users\prata\MyPlayGround\temp7
+C:\Users\prata\MyPlayGround\temp8
+C:\Users\prata\MyPlayGround\temp9
+C:\Users\prata\MyPlayGround\temp1
+C:\Users\prata\MyPlayGround\temp2
+C:\Users\prata\MyPlayGround\temp3
+C:\Users\prata\MyPlayGround\temp4
+C:\Users\prata\MyPlayGround\temp5
+C:\Users\prata\MyPlayGround\temp6
+C:\Users\prata\MyPlayGround\temp7
+C:\Users\prata\MyPlayGround\temp8
+C:\Users\prata\MyPlayGround\temp9
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

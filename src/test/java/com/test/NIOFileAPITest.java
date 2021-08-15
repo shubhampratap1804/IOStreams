@@ -1,10 +1,8 @@
 package com.test;
-
 import com.main.FileUtils;
+import com.main.Java8WatchServiceExample;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -46,5 +44,12 @@ public class NIOFileAPITest {
         Files.list(playPath).filter(Files::isRegularFile).forEach(System.out::println);
         Files.newDirectoryStream(playPath).forEach(System.out::println);
         Files.newDirectoryStream(playPath, path -> path.toFile().isFile() && path.toString().startsWith("temp")).forEach(System.out::println);
+    }
+
+    @Test
+    void givenADirectoryWhenWatched_ShouldListAllTHeActivities() throws IOException{
+        Path dir =Paths.get(HOME+"/"+PLAY_WITH_NIO);
+        Files.list(dir).filter(Files::isRegularFile).forEach(System.out::println);
+        new Java8WatchServiceExample(dir).processEvents();
     }
 }
